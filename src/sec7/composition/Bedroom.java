@@ -5,15 +5,15 @@ package sec7.composition;
  */
 public class Bedroom {
     private String name;
-    private sec7.composition.Wall wall1;
-    private sec7.composition.Wall wall2;
-    private sec7.composition.Wall wall3;
-    private sec7.composition.Wall wall4;
-    private sec7.composition.Ceiling ceiling;
+    private Wall wall1;
+    private Wall wall2;
+    private Wall wall3;
+    private Wall wall4;
+    private Ceiling ceiling;
     private Bed bed;
-    private sec7.composition.Lamp lamp;
+    private Lamp lamp;
 
-    public Bedroom(String name, sec7.composition.Wall wall1, sec7.composition.Wall wall2, sec7.composition.Wall wall3, sec7.composition.Wall wall4, sec7.composition.Ceiling ceiling, Bed bed, sec7.composition.Lamp lamp) {
+    public Bedroom(String name, Wall wall1, Wall wall2, Wall wall3, Wall wall4, Ceiling ceiling, Bed bed, Lamp lamp) {
         this.name = name;
         this.wall1 = wall1;
         this.wall2 = wall2;
@@ -24,7 +24,7 @@ public class Bedroom {
         this.lamp = lamp;
     }
 
-    public sec7.composition.Lamp getLamp() {
+    public Lamp getLamp() {
         return this.lamp;
     }
 

@@ -3,14 +3,14 @@ package sec7.composition;
 public class House {
 
     public static void main(String[] args) {
-        sec7.composition.Dimensions dimensions = new sec7.composition.Dimensions(20, 20, 5);
-        sec7.composition.Case theCase = new sec7.composition.Case("220B", "Dell", "240", dimensions);
+        Dimensions dimensions = new Dimensions(20, 20, 5);
+        Case theCase = new Case("220B", "Dell", "240", dimensions);
 
-        Monitor theMonitor = new Monitor("27inch Beast", "Acer", 27, new sec7.composition.Resolution(2540, 1440));
+        Monitor theMonitor = new Monitor("27inch Beast", "Acer", 27, new Resolution(2540, 1440));
 
-        sec7.composition.Motherboard theMotherboard = new sec7.composition.Motherboard("BJ-200", "Asus", 4, 6, "v2.44");
+        Motherboard theMotherboard = new Motherboard("BJ-200", "Asus", 4, 6, "v2.44");
 
-        sec7.composition.PC thePC = new sec7.composition.PC(theCase, theMonitor, theMotherboard);
+        PC thePC = new PC(theCase, theMonitor, theMotherboard);
         thePC.powerUp();
 
 
@@ -23,18 +23,18 @@ public class House {
         // but to access the object used in composition within the main class
         // like you saw in this video.
 
-        sec7.composition.Wall wall1 = new sec7.composition.Wall("West");
-        sec7.composition.Wall wall2 = new sec7.composition.Wall("East");
-        sec7.composition.Wall wall3 = new sec7.composition.Wall("South");
-        sec7.composition.Wall wall4 = new sec7.composition.Wall("North");
+        Wall wall1 = new Wall("West");
+        Wall wall2 = new Wall("East");
+        Wall wall3 = new Wall("South");
+        Wall wall4 = new Wall("North");
 
-        sec7.composition.Ceiling ceiling = new sec7.composition.Ceiling(12, 55);
+        Ceiling ceiling = new Ceiling(12, 55);
 
-        sec7.composition.Bed bed = new sec7.composition.Bed("Modern", 4, 3, 2, 1);
+        Bed bed = new Bed("Modern", 4, 3, 2, 1);
 
-        sec7.composition.Lamp lamp = new sec7.composition.Lamp("Classic", false, 75);
+        Lamp lamp = new Lamp("Classic", false, 75);
 
-        sec7.composition.Bedroom bedRoom = new sec7.composition.Bedroom("Tims", wall1, wall2, wall3, wall4, ceiling,bed, lamp);
+        Bedroom bedRoom = new Bedroom("Tims", wall1, wall2, wall3, wall4, ceiling,bed, lamp);
         bedRoom.makeBed();
 
         bedRoom.getLamp().turnOn();

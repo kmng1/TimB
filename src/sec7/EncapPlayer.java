@@ -17,7 +17,7 @@ public class EncapPlayer {
 //        player.loseHealth(damage);
 //        System.out.println("Remaining health =  " + player.healthRemaining());
 
-        sec7.EnhancedPlayer player = new sec7.EnhancedPlayer("Tim", 200, "Sword");
+        EnhancedPlayer player = new EnhancedPlayer("Tim", 200, "Sword");
         System.out.println("Initial health is " + player.getHealth());
     }
 }

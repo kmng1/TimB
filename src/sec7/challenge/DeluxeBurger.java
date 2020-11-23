@@ -3,7 +3,7 @@ package sec7.challenge;
 /**
  * Created by dev on 11/08/15.
  */
-public class DeluxeBurger extends sec7.challenge.Hamburger {
+public class DeluxeBurger extends Hamburger {
     public DeluxeBurger() {
         super("Deluxe", "Sausage & Bacon", 14.54, "White");
         super.addHamburgerAddition1("Chips", 2.75);

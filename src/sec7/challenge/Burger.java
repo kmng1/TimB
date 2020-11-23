@@ -32,19 +32,19 @@ public class Burger {
 		// For the two additional classes this may require you to be looking at the base class for pricing and then
 		// adding totals to final price.
 
-        sec7.challenge.Hamburger hamburger = new sec7.challenge.Hamburger("Basic", "Sausage", 3.56, "White");
+        Hamburger hamburger = new Hamburger("Basic", "Sausage", 3.56, "White");
         double price = hamburger.itemizeHamburger();
         hamburger.addHamburgerAddition1("Tomato", 0.27);
         hamburger.addHamburgerAddition2("Lettuce", 0.75);
         hamburger.addHamburgerAddition3("Cheese", 1.13);
         System.out.println("Total Burger price is " + hamburger.itemizeHamburger());
 
-        sec7.challenge.HealthyBurger healthyBurger = new sec7.challenge.HealthyBurger("Bacon", 5.67);
+        HealthyBurger healthyBurger = new HealthyBurger("Bacon", 5.67);
         healthyBurger.addHamburgerAddition1("Egg", 5.43);
         healthyBurger.addHealthAddition1("Lentils", 3.41);
         System.out.println("Total Healthy Burger price is  " + healthyBurger.itemizeHamburger());
 
-        sec7.challenge.DeluxeBurger db = new sec7.challenge.DeluxeBurger();
+        DeluxeBurger db = new  DeluxeBurger();
         db.addHamburgerAddition3("Should not do this", 50.53);
         db.itemizeHamburger();
 

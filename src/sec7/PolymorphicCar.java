@@ -100,7 +100,7 @@ class Ford extends Car {
     }
 }
 
-public class Polymorphic {
+public class PolymorphicCar {
 
     public static void main(String[] args) {
 	    // We are going to go back to the car analogy.

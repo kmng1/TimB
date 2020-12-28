@@ -1,6 +1,4 @@
-package com.timbuchalka;
-
-import sec8.banking.Bank;
+package sec8.banking;
 
 public class BankMain {
 

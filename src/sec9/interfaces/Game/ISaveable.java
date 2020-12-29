@@ -1,4 +1,4 @@
-package sec9.interfaces;
+package sec9.interfaces.Game;
 
 import java.util.List;
 

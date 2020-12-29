@@ -1,4 +1,4 @@
-package sec9.interfaces.Phone;
+package sec9.interfaces.phone;
 
 /**
  * Created by dev on 27/09/15.

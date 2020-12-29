@@ -1,4 +1,4 @@
-package sec9.interfaces.Phone;
+package sec9.interfaces.phone;
 
 /**
  * Created by Gigabyte on 12/8/2017.

@@ -2,7 +2,7 @@ package sec9.inner;
 
 import java.util.*;
 
-public class InnerMain {
+public class Playlist {
 
     private static ArrayList<Album> albums = new ArrayList<Album>();
 

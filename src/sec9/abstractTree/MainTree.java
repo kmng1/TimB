@@ -1,6 +1,6 @@
-package sec9.abstractList;
+package sec9.abstractTree;
 
-public class AbstractMain {
+public class MainTree {
 
     public static void main(String[] args) {
         // For this challenge, create an abstract class to define items that can be stored in a tree.

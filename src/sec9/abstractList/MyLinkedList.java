@@ -1,4 +1,4 @@
-package sec9.abstrac;
+package sec9.abstractList;
 
 /**
  * Created by dev on 11/10/2015.

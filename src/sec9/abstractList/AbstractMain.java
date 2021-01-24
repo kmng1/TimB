@@ -1,4 +1,4 @@
-package sec9.abstrac;
+package sec9.abstractList;
 
 public class AbstractMain {
 
